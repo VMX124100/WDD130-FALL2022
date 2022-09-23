@@ -2,29 +2,31 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
-@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&family=Oswald&family=Rubik+Dirt&family=Ubuntu:ital,wght@1,300&display=swap');
 
+  
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #396E94   ;
-  --secondary-color: #E7C24F ;
-  --accent1-color: #A42212;
-  --accent2-color: white;
+  --primary-color: #1F4690   ;
+  --secondary-color: #0096FF ;
+  --accent1-color: #FFDE00;
+  --accent2-color: #72FFFF;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "IM Fell French Canon";
-  --paragraph-font: Lato, Helvetica, sans-serif;
+  
+  --heading-font: 'Oswald', sans-serif;
+  --paragraph-font: 'Edu QLD Beginner', cursive;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
-  --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
+  --headline-color-on-72FFFF: #1F4690;  /* headlines on a 72FFFF background */ 
+  --headline-color-on-color: white ; /* headlines on a colored background */ 
+  --paragraph-color-on-72FFFF: #1F4690; /* paragraph text on a 72FFFF background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #396E94  ;
-  --nav-link-color: #396E94;
-  --nav-background-color: #D4AC0D;
+  --paragraph-background-color: #1F4690  ;
+  --nav-link-color: #1F4690;
+  --nav-background-color: #FFDE00;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: #396E94;
+  --nav-hover-background-color: #0096FF;
 }
 
 
@@ -44,7 +46,7 @@ img {
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
-  color: var(--headline-color-on-white);
+  color: var(--headline-color-on-72FFFF);
 }
 h2 {
   text-align: center;
@@ -61,7 +63,7 @@ header {
   background-color: var(--paragraph-background-color);
 }
 header > h1, header > h2 {
-  color: var(--headline-color-on-color);
+  color: var(--headline-color-on-color)
 }
 p {
   font-family: var(--paragraph-font);
