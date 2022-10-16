@@ -1,18 +1,35 @@
 
+     @import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&family=Oswald&family=Rubik+Dirt&family=Ubuntu:ital,wght@1,300&display=swap');
+    
 body{
     background-color: white;
+    margin: 0;
+    padding: 0;
 }
 header{
     background-color: #1F4690;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+    margin: 0;
 }
 nav a{
     text-align: center;
     color: white;
     text-decoration: none;
+    font-size: 1em;
+    padding: 35px;
 }
 nav a:hover{
     background-color: #72FFFF;
     color: #1F4690;
+}
+h1,h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+}
+h4,p{
+    font-family: 'Edu QLD Beginner', cursive;
+    font-size: 2em;
 }
 /* .hero{
    
@@ -26,21 +43,27 @@ nav a:hover{
     background-size: cover;
     position: relative;
 } */
+.home-title{
+    margin-top: 10px;
+}
 .logo{
     width: 80px;
 }
+#logo_link{
+    padding: 5px;
+}
 .icon{
     width: 80px;
+    padding: 10px;
 }
-.book{
-    background-color: white;
+.book, .join{
+    
     color: #1F4690;
     text-decoration: none;
-}
-.join{
-    background-color: #FFDE00;
-    color: #1F4690;
-    text-decoration: none;
+    font-size: 2em;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover{
     background-color: #72FFFF;
@@ -48,15 +71,22 @@ nav a:hover{
 .join:hover{
     background-color: #72FFFF;
 }
+.card-img{
+    border: 10px solid #FFDE00;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
 .msg{
     background-color: #FFDE00;
     color: #1F4690;
+    padding: 35px;
 }
 .msg h2{
 
 }
 .msg p{
-
+padding-bottom: 15px;
 }
 .siteplan{
     color: white;
@@ -80,15 +110,22 @@ nav a:hover{
 main section{
 text-align: center;
 }
+main section{
+    box-sizing: border-box;
+}
 #background{
-    background-color: #FFDE00;
+    background-color: #1F4690;
     height: 725px;
+}
+footer .social img{
+    padding-top: 15px;
 }
 footer a{
     text-decoration: none;
 }
 footer p{
-    font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
 }
 footer p a:hover{
     text-decoration: underline;
@@ -96,4 +133,6 @@ footer p a:hover{
 footer{
 background-color: #1F4690;
 color: white;
+padding: 25px 50px;
+margin-top: 200px;
 }
