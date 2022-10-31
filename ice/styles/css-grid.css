@@ -1,0 +1,17 @@
+article{
+    background-color: greenyellow;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+
+section{
+    display:grid;
+    gap: 10px;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: ;
+}
+
+#article1{
+    grid-column: 1/4;
+}
