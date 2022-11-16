@@ -15,7 +15,6 @@ header{
     margin: 0;
 }
 nav{
-    display: grid;
     justify-content: space-around;
 }
 nav a{
