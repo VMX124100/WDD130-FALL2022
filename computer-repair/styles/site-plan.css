@@ -5,7 +5,7 @@ Fonts are separated by a | */
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Roboto:ital@1&display=swap');
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #0754f0   ;
+  --primary-color: #332FD0   ;
   --secondary-color: black ;
   --accent1-color: #1db954;
   --accent2-color: white;
@@ -19,11 +19,11 @@ Fonts are separated by a | */
   --headline-color-on-color: white; /* headlines on a colored background */ 
   --paragraph-color-on-white: black; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #0754f0  ;
+  --paragraph-background-color: #332FD0  ;
   --nav-link-color: black;
   --nav-background-color: #1db954;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: #0754f0;
+  --nav-hover-background-color: #332FD0;
 }
 
 
