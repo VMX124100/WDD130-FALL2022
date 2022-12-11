@@ -1,14 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Roboto:ital@1&display=swap');
 
-:root {
-    /*
-    font-family: 'Kanit', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    */
-}
-
-
 #brands img{
     max-width: 200px;
 }
@@ -21,7 +13,7 @@ h1, h2, h3, h4, a{
     font-family: 'Kanit', sans-serif;
 }
 
-p, li, section{
+p, li {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -88,7 +80,6 @@ nav a:hover{
     text-decoration: none;
     color: #332FD0;
     font-size: 1.3em;
-
 }
 
 #os-grid{
@@ -195,6 +186,7 @@ nav a:hover{
     font-size: 1.5em;
     border-radius: 10px;
     color: black;
+    text-decoration: none;
 }
 .build-img{
     border: solid black;
@@ -264,7 +256,6 @@ margin-top: 200px;
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
-
 #services{
 display: grid;
 grid-template-columns: 1fr 4fr 1fr 4fr 2fr;
@@ -279,7 +270,6 @@ align-items: center;
 #services p{
 font-size: 1.5em;
 }
-
 .open-img{
     justify-self: center;
     max-width: 350px;
@@ -321,16 +311,115 @@ font-size: 1.5em;
     grid-row: 4/5;
 }
 
+#review-mid{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns:50px 2fr 50px 1fr 50px ;
+    grid-template-rows: 1fr 2fr 2fr;
+    gap: 3%;
+}
+.channel{
+    border: solid black;
+    max-width: 70%;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    justify-self: center;
+    align-self: center;
+}
+.video1{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    justify-self: center;
+    align-self: center;
+}
+.video2{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    justify-self: center;
+    align-self: center;
+}
+.review-title{
+    border: solid black;
+    grid-column: 4/5;
+    grid-row: 1/2;
+    justify-self: center;
+    align-self: center;
+}
+.review-img{
+    border: solid black;
+    grid-column: 4/5;
+    grid-row: 2/4;
+    z-index: -1;
+    max-width: 100%;
+    justify-self: center;
+    align-self: center;
+    width: 250%;
+}
+.review-text{
+    background-image: url(/computer-repair/images/reviewback.jpg);
+    padding: 10%;
+    grid-column: 4/5;
+    grid-row: 2/4; 
+    justify-self: center;
+    align-self: center;
+    font-size: 1.3em;
+}
+#FAQs{
+    margin-top: 3%;
+    padding-top: 1%;
+    display: grid;
+    grid-template-columns: 10% 1fr 5% 4fr 5%;
+    grid-template-rows: 10% 18% 18% 18% 18% 18%;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.12);;
+}
+.FAQs{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    border: solid black;
+    text-align: center;
+}
+.q1{
+    grid-column: 2/3;
+    grid-row: 2/3; 
+}
+.q2{
+    grid-column: 2/3;
+    grid-row: 3/4; 
+}
+.q3{
+    grid-column: 2/3;
+    grid-row: 4/5; 
+}
+.q4{
+    grid-column: 2/3;
+    grid-row: 5/6; 
+}
+.q5{
+    grid-column: 2/3;
+    grid-row: 6/7; 
+}
 
-
-
-
-
-
-
-
-
-
+.a1{
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+.a2{
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
+.a3{
+    grid-column: 4/5;
+    grid-row: 4/5;
+}
+.a4{
+    grid-column: 4/5;
+    grid-row: 5/6;
+}
+.a5{
+    grid-column: 4/5;
+    grid-row: 6/7;
+}
 
 
 
